@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77A416FC1C780A4D0017B6BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A416FB1C780A4D0017B6BD /* main.m */; };
+		77A416FF1C780A4D0017B6BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A416FE1C780A4D0017B6BD /* AppDelegate.m */; };
+		77A417021C780A4D0017B6BD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A417011C780A4D0017B6BD /* FirstViewController.m */; };
+		77A417051C780A4D0017B6BD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A417041C780A4D0017B6BD /* SecondViewController.m */; };
+		77A417081C780A4D0017B6BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A417061C780A4D0017B6BD /* Main.storyboard */; };
+		77A4170A1C780A4D0017B6BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A417091C780A4D0017B6BD /* Assets.xcassets */; };
+		77A4170D1C780A4D0017B6BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A4170B1C780A4D0017B6BD /* LaunchScreen.storyboard */; };
+		77A417181C780A4D0017B6BD /* TicketingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A417171C780A4D0017B6BD /* TicketingAppTests.m */; };
+		77A417231C780A4D0017B6BD /* TicketingAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A417221C780A4D0017B6BD /* TicketingAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77A417141C780A4D0017B6BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77A416EF1C780A4D0017B6BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77A416F61C780A4D0017B6BD;
+			remoteInfo = TicketingApp;
+		};
+		77A4171F1C780A4D0017B6BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77A416EF1C780A4D0017B6BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77A416F61C780A4D0017B6BD;
+			remoteInfo = TicketingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77A416F71C780A4D0017B6BD /* TicketingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A416FB1C780A4D0017B6BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77A416FD1C780A4D0017B6BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77A416FE1C780A4D0017B6BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77A417001C780A4D0017B6BD /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		77A417011C780A4D0017B6BD /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		77A417031C780A4D0017B6BD /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		77A417041C780A4D0017B6BD /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		77A417071C780A4D0017B6BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77A417091C780A4D0017B6BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77A4170C1C780A4D0017B6BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77A4170E1C780A4D0017B6BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A417131C780A4D0017B6BD /* TicketingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A417171C780A4D0017B6BD /* TicketingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketingAppTests.m; sourceTree = "<group>"; };
+		77A417191C780A4D0017B6BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A4171E1C780A4D0017B6BD /* TicketingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A417221C780A4D0017B6BD /* TicketingAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketingAppUITests.m; sourceTree = "<group>"; };
+		77A417241C780A4D0017B6BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77A416F41C780A4D0017B6BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A417101C780A4D0017B6BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A4171B1C780A4D0017B6BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77A416EE1C780A4D0017B6BD = {
+			isa = PBXGroup;
+			children = (
+				77A416F91C780A4D0017B6BD /* TicketingApp */,
+				77A417161C780A4D0017B6BD /* TicketingAppTests */,
+				77A417211C780A4D0017B6BD /* TicketingAppUITests */,
+				77A416F81C780A4D0017B6BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77A416F81C780A4D0017B6BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77A416F71C780A4D0017B6BD /* TicketingApp.app */,
+				77A417131C780A4D0017B6BD /* TicketingAppTests.xctest */,
+				77A4171E1C780A4D0017B6BD /* TicketingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77A416F91C780A4D0017B6BD /* TicketingApp */ = {
+			isa = PBXGroup;
+			children = (
+				77A416FD1C780A4D0017B6BD /* AppDelegate.h */,
+				77A416FE1C780A4D0017B6BD /* AppDelegate.m */,
+				77A417001C780A4D0017B6BD /* FirstViewController.h */,
+				77A417011C780A4D0017B6BD /* FirstViewController.m */,
+				77A417031C780A4D0017B6BD /* SecondViewController.h */,
+				77A417041C780A4D0017B6BD /* SecondViewController.m */,
+				77A417061C780A4D0017B6BD /* Main.storyboard */,
+				77A417091C780A4D0017B6BD /* Assets.xcassets */,
+				77A4170B1C780A4D0017B6BD /* LaunchScreen.storyboard */,
+				77A4170E1C780A4D0017B6BD /* Info.plist */,
+				77A416FA1C780A4D0017B6BD /* Supporting Files */,
+			);
+			path = TicketingApp;
+			sourceTree = "<group>";
+		};
+		77A416FA1C780A4D0017B6BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77A416FB1C780A4D0017B6BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77A417161C780A4D0017B6BD /* TicketingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				77A417171C780A4D0017B6BD /* TicketingAppTests.m */,
+				77A417191C780A4D0017B6BD /* Info.plist */,
+			);
+			path = TicketingAppTests;
+			sourceTree = "<group>";
+		};
+		77A417211C780A4D0017B6BD /* TicketingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77A417221C780A4D0017B6BD /* TicketingAppUITests.m */,
+				77A417241C780A4D0017B6BD /* Info.plist */,
+			);
+			path = TicketingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77A416F61C780A4D0017B6BD /* TicketingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A417271C780A4D0017B6BD /* Build configuration list for PBXNativeTarget "TicketingApp" */;
+			buildPhases = (
+				77A416F31C780A4D0017B6BD /* Sources */,
+				77A416F41C780A4D0017B6BD /* Frameworks */,
+				77A416F51C780A4D0017B6BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicketingApp;
+			productName = TicketingApp;
+			productReference = 77A416F71C780A4D0017B6BD /* TicketingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77A417121C780A4D0017B6BD /* TicketingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A4172A1C780A4D0017B6BD /* Build configuration list for PBXNativeTarget "TicketingAppTests" */;
+			buildPhases = (
+				77A4170F1C780A4D0017B6BD /* Sources */,
+				77A417101C780A4D0017B6BD /* Frameworks */,
+				77A417111C780A4D0017B6BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77A417151C780A4D0017B6BD /* PBXTargetDependency */,
+			);
+			name = TicketingAppTests;
+			productName = TicketingAppTests;
+			productReference = 77A417131C780A4D0017B6BD /* TicketingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77A4171D1C780A4D0017B6BD /* TicketingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A4172D1C780A4D0017B6BD /* Build configuration list for PBXNativeTarget "TicketingAppUITests" */;
+			buildPhases = (
+				77A4171A1C780A4D0017B6BD /* Sources */,
+				77A4171B1C780A4D0017B6BD /* Frameworks */,
+				77A4171C1C780A4D0017B6BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77A417201C780A4D0017B6BD /* PBXTargetDependency */,
+			);
+			name = TicketingAppUITests;
+			productName = TicketingAppUITests;
+			productReference = 77A4171E1C780A4D0017B6BD /* TicketingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77A416EF1C780A4D0017B6BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MehtaiPhoneApps;
+				TargetAttributes = {
+					77A416F61C780A4D0017B6BD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					77A417121C780A4D0017B6BD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 77A416F61C780A4D0017B6BD;
+					};
+					77A4171D1C780A4D0017B6BD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 77A416F61C780A4D0017B6BD;
+					};
+				};
+			};
+			buildConfigurationList = 77A416F21C780A4D0017B6BD /* Build configuration list for PBXProject "TicketingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77A416EE1C780A4D0017B6BD;
+			productRefGroup = 77A416F81C780A4D0017B6BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77A416F61C780A4D0017B6BD /* TicketingApp */,
+				77A417121C780A4D0017B6BD /* TicketingAppTests */,
+				77A4171D1C780A4D0017B6BD /* TicketingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77A416F51C780A4D0017B6BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A4170D1C780A4D0017B6BD /* LaunchScreen.storyboard in Resources */,
+				77A4170A1C780A4D0017B6BD /* Assets.xcassets in Resources */,
+				77A417081C780A4D0017B6BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A417111C780A4D0017B6BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A4171C1C780A4D0017B6BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77A416F31C780A4D0017B6BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A417051C780A4D0017B6BD /* SecondViewController.m in Sources */,
+				77A416FF1C780A4D0017B6BD /* AppDelegate.m in Sources */,
+				77A417021C780A4D0017B6BD /* FirstViewController.m in Sources */,
+				77A416FC1C780A4D0017B6BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A4170F1C780A4D0017B6BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A417181C780A4D0017B6BD /* TicketingAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A4171A1C780A4D0017B6BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A417231C780A4D0017B6BD /* TicketingAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77A417151C780A4D0017B6BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77A416F61C780A4D0017B6BD /* TicketingApp */;
+			targetProxy = 77A417141C780A4D0017B6BD /* PBXContainerItemProxy */;
+		};
+		77A417201C780A4D0017B6BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77A416F61C780A4D0017B6BD /* TicketingApp */;
+			targetProxy = 77A4171F1C780A4D0017B6BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77A417061C780A4D0017B6BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77A417071C780A4D0017B6BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77A4170B1C780A4D0017B6BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77A4170C1C780A4D0017B6BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77A417251C780A4D0017B6BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		77A417261C780A4D0017B6BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77A417281C780A4D0017B6BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TicketingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehtaiphoneapps.TicketingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77A417291C780A4D0017B6BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TicketingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehtaiphoneapps.TicketingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		77A4172B1C780A4D0017B6BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TicketingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehtaiphoneapps.TicketingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicketingApp.app/TicketingApp";
+			};
+			name = Debug;
+		};
+		77A4172C1C780A4D0017B6BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TicketingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehtaiphoneapps.TicketingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicketingApp.app/TicketingApp";
+			};
+			name = Release;
+		};
+		77A4172E1C780A4D0017B6BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TicketingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehtaiphoneapps.TicketingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TicketingApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		77A4172F1C780A4D0017B6BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TicketingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehtaiphoneapps.TicketingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TicketingApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77A416F21C780A4D0017B6BD /* Build configuration list for PBXProject "TicketingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A417251C780A4D0017B6BD /* Debug */,
+				77A417261C780A4D0017B6BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77A417271C780A4D0017B6BD /* Build configuration list for PBXNativeTarget "TicketingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A417281C780A4D0017B6BD /* Debug */,
+				77A417291C780A4D0017B6BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77A4172A1C780A4D0017B6BD /* Build configuration list for PBXNativeTarget "TicketingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A4172B1C780A4D0017B6BD /* Debug */,
+				77A4172C1C780A4D0017B6BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77A4172D1C780A4D0017B6BD /* Build configuration list for PBXNativeTarget "TicketingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A4172E1C780A4D0017B6BD /* Debug */,
+				77A4172F1C780A4D0017B6BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77A416EF1C780A4D0017B6BD /* Project object */;
+}
