@@ -11,5 +11,8 @@
 @interface SecondViewController : UIViewController
 
 
+-(IBAction)logout:(id)sender;
+-(IBAction)updateWatch:(id)sender;
+
 @end
 

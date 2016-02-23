@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7701D1681C79A3DD007144EE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7701D1661C79A3DD007144EE /* Interface.storyboard */; };
+		7701D16A1C79A3DD007144EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7701D1691C79A3DD007144EE /* Assets.xcassets */; };
+		7701D1711C79A3DE007144EE /* TicketingWatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7701D1701C79A3DE007144EE /* TicketingWatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7701D1791C79A3DE007144EE /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7701D1781C79A3DE007144EE /* InterfaceController.m */; };
+		7701D17C1C79A3DE007144EE /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7701D17B1C79A3DE007144EE /* ExtensionDelegate.m */; };
+		7701D17F1C79A3DE007144EE /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7701D17E1C79A3DE007144EE /* NotificationController.m */; };
+		7701D1811C79A3DE007144EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7701D1801C79A3DE007144EE /* Assets.xcassets */; };
+		7701D1851C79A3DE007144EE /* TicketingWatchKit.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7701D1641C79A3DD007144EE /* TicketingWatchKit.app */; };
+		7701D1901C79A81E007144EE /* SellingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7701D18F1C79A81E007144EE /* SellingViewController.m */; };
 		77A416FC1C780A4D0017B6BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A416FB1C780A4D0017B6BD /* main.m */; };
 		77A416FF1C780A4D0017B6BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A416FE1C780A4D0017B6BD /* AppDelegate.m */; };
 		77A417021C780A4D0017B6BD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A417011C780A4D0017B6BD /* FirstViewController.m */; };
@@ -16,9 +25,40 @@
 		77A4170D1C780A4D0017B6BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A4170B1C780A4D0017B6BD /* LaunchScreen.storyboard */; };
 		77A417181C780A4D0017B6BD /* TicketingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A417171C780A4D0017B6BD /* TicketingAppTests.m */; };
 		77A417231C780A4D0017B6BD /* TicketingAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A417221C780A4D0017B6BD /* TicketingAppUITests.m */; };
+		77A417441C780A720017B6BD /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A417321C780A720017B6BD /* AFHTTPRequestOperation.m */; };
+		77A417451C780A720017B6BD /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A417341C780A720017B6BD /* AFHTTPRequestOperationManager.m */; };
+		77A417461C780A720017B6BD /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A417361C780A720017B6BD /* AFHTTPSessionManager.m */; };
+		77A417471C780A720017B6BD /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A417391C780A720017B6BD /* AFNetworkReachabilityManager.m */; };
+		77A417481C780A720017B6BD /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A4173B1C780A720017B6BD /* AFSecurityPolicy.m */; };
+		77A417491C780A720017B6BD /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A4173D1C780A720017B6BD /* AFURLConnectionOperation.m */; };
+		77A4174A1C780A720017B6BD /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A4173F1C780A720017B6BD /* AFURLRequestSerialization.m */; };
+		77A4174B1C780A720017B6BD /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A417411C780A720017B6BD /* AFURLResponseSerialization.m */; };
+		77A4174C1C780A720017B6BD /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A417431C780A720017B6BD /* AFURLSessionManager.m */; };
+		77A4174F1C780A840017B6BD /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A4174E1C780A840017B6BD /* API.m */; };
+		77A417521C780D5F0017B6BD /* LoginScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A417511C780D5F0017B6BD /* LoginScreen.m */; };
+		77A417551C7819760017B6BD /* RegisterScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A417541C7819760017B6BD /* RegisterScreen.m */; };
+		77A417581C782CB70017B6BD /* StreamScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A417571C782CB70017B6BD /* StreamScreen.m */; };
+		77A4175B1C788F800017B6BD /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A4175A1C788F800017B6BD /* CustomTableViewCell.m */; };
+		77A4175E1C78C2BB0017B6BD /* NewTicketScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A4175D1C78C2BB0017B6BD /* NewTicketScreen.m */; };
+		77A417611C790F480017B6BD /* RequestsStreamScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A417601C790F480017B6BD /* RequestsStreamScreen.m */; };
+		77AEA0221C79AE4A000633E4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AEA0211C79AE4A000633E4 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7701D1721C79A3DE007144EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77A416EF1C780A4D0017B6BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7701D16F1C79A3DE007144EE;
+			remoteInfo = "TicketingWatchKit Extension";
+		};
+		7701D1831C79A3DE007144EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77A416EF1C780A4D0017B6BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7701D1631C79A3DD007144EE;
+			remoteInfo = TicketingWatchKit;
+		};
 		77A417141C780A4D0017B6BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 77A416EF1C780A4D0017B6BD /* Project object */;
@@ -35,7 +75,48 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7701D18B1C79A3DE007144EE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7701D1711C79A3DE007144EE /* TicketingWatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7701D18D1C79A3DE007144EE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7701D1851C79A3DE007144EE /* TicketingWatchKit.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7701D1641C79A3DD007144EE /* TicketingWatchKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketingWatchKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7701D1671C79A3DD007144EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7701D1691C79A3DD007144EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7701D16B1C79A3DD007144EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7701D1701C79A3DE007144EE /* TicketingWatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TicketingWatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7701D1761C79A3DE007144EE /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7701D1771C79A3DE007144EE /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		7701D1781C79A3DE007144EE /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		7701D17A1C79A3DE007144EE /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		7701D17B1C79A3DE007144EE /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		7701D17D1C79A3DE007144EE /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		7701D17E1C79A3DE007144EE /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		7701D1801C79A3DE007144EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7701D1821C79A3DE007144EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7701D18E1C79A81E007144EE /* SellingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SellingViewController.h; sourceTree = "<group>"; };
+		7701D18F1C79A81E007144EE /* SellingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SellingViewController.m; sourceTree = "<group>"; };
 		77A416F71C780A4D0017B6BD /* TicketingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A416FB1C780A4D0017B6BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77A416FD1C780A4D0017B6BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,13 +135,55 @@
 		77A4171E1C780A4D0017B6BD /* TicketingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A417221C780A4D0017B6BD /* TicketingAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketingAppUITests.m; sourceTree = "<group>"; };
 		77A417241C780A4D0017B6BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A417311C780A720017B6BD /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		77A417321C780A720017B6BD /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		77A417331C780A720017B6BD /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		77A417341C780A720017B6BD /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		77A417351C780A720017B6BD /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		77A417361C780A720017B6BD /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		77A417371C780A720017B6BD /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		77A417381C780A720017B6BD /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		77A417391C780A720017B6BD /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		77A4173A1C780A720017B6BD /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		77A4173B1C780A720017B6BD /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		77A4173C1C780A720017B6BD /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		77A4173D1C780A720017B6BD /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		77A4173E1C780A720017B6BD /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		77A4173F1C780A720017B6BD /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		77A417401C780A720017B6BD /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		77A417411C780A720017B6BD /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		77A417421C780A720017B6BD /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		77A417431C780A720017B6BD /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		77A4174D1C780A840017B6BD /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
+		77A4174E1C780A840017B6BD /* API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = API.m; sourceTree = "<group>"; };
+		77A417501C780D5F0017B6BD /* LoginScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginScreen.h; sourceTree = "<group>"; };
+		77A417511C780D5F0017B6BD /* LoginScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginScreen.m; sourceTree = "<group>"; };
+		77A417531C7819760017B6BD /* RegisterScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterScreen.h; sourceTree = "<group>"; };
+		77A417541C7819760017B6BD /* RegisterScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterScreen.m; sourceTree = "<group>"; };
+		77A417561C782CB70017B6BD /* StreamScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamScreen.h; sourceTree = "<group>"; };
+		77A417571C782CB70017B6BD /* StreamScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamScreen.m; sourceTree = "<group>"; };
+		77A417591C788F800017B6BD /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		77A4175A1C788F800017B6BD /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		77A4175C1C78C2BB0017B6BD /* NewTicketScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTicketScreen.h; sourceTree = "<group>"; };
+		77A4175D1C78C2BB0017B6BD /* NewTicketScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTicketScreen.m; sourceTree = "<group>"; };
+		77A4175F1C790F480017B6BD /* RequestsStreamScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestsStreamScreen.h; sourceTree = "<group>"; };
+		77A417601C790F480017B6BD /* RequestsStreamScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestsStreamScreen.m; sourceTree = "<group>"; };
+		77AEA0211C79AE4A000633E4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7701D16D1C79A3DE007144EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77A416F41C780A4D0017B6BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77AEA0221C79AE4A000633E4 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,12 +204,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7701D1651C79A3DD007144EE /* TicketingWatchKit */ = {
+			isa = PBXGroup;
+			children = (
+				7701D1661C79A3DD007144EE /* Interface.storyboard */,
+				7701D1691C79A3DD007144EE /* Assets.xcassets */,
+				7701D16B1C79A3DD007144EE /* Info.plist */,
+			);
+			path = TicketingWatchKit;
+			sourceTree = "<group>";
+		};
+		7701D1741C79A3DE007144EE /* TicketingWatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7701D1771C79A3DE007144EE /* InterfaceController.h */,
+				7701D1781C79A3DE007144EE /* InterfaceController.m */,
+				7701D17A1C79A3DE007144EE /* ExtensionDelegate.h */,
+				7701D17B1C79A3DE007144EE /* ExtensionDelegate.m */,
+				7701D17D1C79A3DE007144EE /* NotificationController.h */,
+				7701D17E1C79A3DE007144EE /* NotificationController.m */,
+				7701D18E1C79A81E007144EE /* SellingViewController.h */,
+				7701D18F1C79A81E007144EE /* SellingViewController.m */,
+				7701D1801C79A3DE007144EE /* Assets.xcassets */,
+				7701D1821C79A3DE007144EE /* Info.plist */,
+				7701D1751C79A3DE007144EE /* Supporting Files */,
+			);
+			path = "TicketingWatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7701D1751C79A3DE007144EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7701D1761C79A3DE007144EE /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		77A416EE1C780A4D0017B6BD = {
 			isa = PBXGroup;
 			children = (
+				77AEA0211C79AE4A000633E4 /* SystemConfiguration.framework */,
 				77A416F91C780A4D0017B6BD /* TicketingApp */,
 				77A417161C780A4D0017B6BD /* TicketingAppTests */,
 				77A417211C780A4D0017B6BD /* TicketingAppUITests */,
+				7701D1651C79A3DD007144EE /* TicketingWatchKit */,
+				7701D1741C79A3DE007144EE /* TicketingWatchKit Extension */,
 				77A416F81C780A4D0017B6BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +259,8 @@
 				77A416F71C780A4D0017B6BD /* TicketingApp.app */,
 				77A417131C780A4D0017B6BD /* TicketingAppTests.xctest */,
 				77A4171E1C780A4D0017B6BD /* TicketingAppUITests.xctest */,
+				7701D1641C79A3DD007144EE /* TicketingWatchKit.app */,
+				7701D1701C79A3DE007144EE /* TicketingWatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,10 +274,25 @@
 				77A417011C780A4D0017B6BD /* FirstViewController.m */,
 				77A417031C780A4D0017B6BD /* SecondViewController.h */,
 				77A417041C780A4D0017B6BD /* SecondViewController.m */,
+				77A417561C782CB70017B6BD /* StreamScreen.h */,
+				77A417571C782CB70017B6BD /* StreamScreen.m */,
+				77A4175F1C790F480017B6BD /* RequestsStreamScreen.h */,
+				77A417601C790F480017B6BD /* RequestsStreamScreen.m */,
+				77A4175C1C78C2BB0017B6BD /* NewTicketScreen.h */,
+				77A4175D1C78C2BB0017B6BD /* NewTicketScreen.m */,
+				77A417591C788F800017B6BD /* CustomTableViewCell.h */,
+				77A4175A1C788F800017B6BD /* CustomTableViewCell.m */,
+				77A417501C780D5F0017B6BD /* LoginScreen.h */,
+				77A417511C780D5F0017B6BD /* LoginScreen.m */,
+				77A417531C7819760017B6BD /* RegisterScreen.h */,
+				77A417541C7819760017B6BD /* RegisterScreen.m */,
+				77A4174D1C780A840017B6BD /* API.h */,
+				77A4174E1C780A840017B6BD /* API.m */,
 				77A417061C780A4D0017B6BD /* Main.storyboard */,
 				77A417091C780A4D0017B6BD /* Assets.xcassets */,
 				77A4170B1C780A4D0017B6BD /* LaunchScreen.storyboard */,
 				77A4170E1C780A4D0017B6BD /* Info.plist */,
+				77A417301C780A580017B6BD /* AFNetworking */,
 				77A416FA1C780A4D0017B6BD /* Supporting Files */,
 			);
 			path = TicketingApp;
@@ -145,9 +324,69 @@
 			path = TicketingAppUITests;
 			sourceTree = "<group>";
 		};
+		77A417301C780A580017B6BD /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				77A417311C780A720017B6BD /* AFHTTPRequestOperation.h */,
+				77A417321C780A720017B6BD /* AFHTTPRequestOperation.m */,
+				77A417331C780A720017B6BD /* AFHTTPRequestOperationManager.h */,
+				77A417341C780A720017B6BD /* AFHTTPRequestOperationManager.m */,
+				77A417351C780A720017B6BD /* AFHTTPSessionManager.h */,
+				77A417361C780A720017B6BD /* AFHTTPSessionManager.m */,
+				77A417371C780A720017B6BD /* AFNetworking.h */,
+				77A417381C780A720017B6BD /* AFNetworkReachabilityManager.h */,
+				77A417391C780A720017B6BD /* AFNetworkReachabilityManager.m */,
+				77A4173A1C780A720017B6BD /* AFSecurityPolicy.h */,
+				77A4173B1C780A720017B6BD /* AFSecurityPolicy.m */,
+				77A4173C1C780A720017B6BD /* AFURLConnectionOperation.h */,
+				77A4173D1C780A720017B6BD /* AFURLConnectionOperation.m */,
+				77A4173E1C780A720017B6BD /* AFURLRequestSerialization.h */,
+				77A4173F1C780A720017B6BD /* AFURLRequestSerialization.m */,
+				77A417401C780A720017B6BD /* AFURLResponseSerialization.h */,
+				77A417411C780A720017B6BD /* AFURLResponseSerialization.m */,
+				77A417421C780A720017B6BD /* AFURLSessionManager.h */,
+				77A417431C780A720017B6BD /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7701D1631C79A3DD007144EE /* TicketingWatchKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7701D18C1C79A3DE007144EE /* Build configuration list for PBXNativeTarget "TicketingWatchKit" */;
+			buildPhases = (
+				7701D1621C79A3DD007144EE /* Resources */,
+				7701D18B1C79A3DE007144EE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7701D1731C79A3DE007144EE /* PBXTargetDependency */,
+			);
+			name = TicketingWatchKit;
+			productName = TicketingWatchKit;
+			productReference = 7701D1641C79A3DD007144EE /* TicketingWatchKit.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7701D16F1C79A3DE007144EE /* TicketingWatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7701D18A1C79A3DE007144EE /* Build configuration list for PBXNativeTarget "TicketingWatchKit Extension" */;
+			buildPhases = (
+				7701D16C1C79A3DE007144EE /* Sources */,
+				7701D16D1C79A3DE007144EE /* Frameworks */,
+				7701D16E1C79A3DE007144EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TicketingWatchKit Extension";
+			productName = "TicketingWatchKit Extension";
+			productReference = 7701D1701C79A3DE007144EE /* TicketingWatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		77A416F61C780A4D0017B6BD /* TicketingApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77A417271C780A4D0017B6BD /* Build configuration list for PBXNativeTarget "TicketingApp" */;
@@ -155,10 +394,12 @@
 				77A416F31C780A4D0017B6BD /* Sources */,
 				77A416F41C780A4D0017B6BD /* Frameworks */,
 				77A416F51C780A4D0017B6BD /* Resources */,
+				7701D18D1C79A3DE007144EE /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7701D1841C79A3DE007144EE /* PBXTargetDependency */,
 			);
 			name = TicketingApp;
 			productName = TicketingApp;
@@ -210,6 +451,12 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = MehtaiPhoneApps;
 				TargetAttributes = {
+					7701D1631C79A3DD007144EE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7701D16F1C79A3DE007144EE = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					77A416F61C780A4D0017B6BD = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -239,11 +486,30 @@
 				77A416F61C780A4D0017B6BD /* TicketingApp */,
 				77A417121C780A4D0017B6BD /* TicketingAppTests */,
 				77A4171D1C780A4D0017B6BD /* TicketingAppUITests */,
+				7701D1631C79A3DD007144EE /* TicketingWatchKit */,
+				7701D16F1C79A3DE007144EE /* TicketingWatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7701D1621C79A3DD007144EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7701D16A1C79A3DD007144EE /* Assets.xcassets in Resources */,
+				7701D1681C79A3DD007144EE /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7701D16E1C79A3DE007144EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7701D1811C79A3DE007144EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77A416F51C780A4D0017B6BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,13 +537,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7701D16C1C79A3DE007144EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7701D17C1C79A3DE007144EE /* ExtensionDelegate.m in Sources */,
+				7701D1791C79A3DE007144EE /* InterfaceController.m in Sources */,
+				7701D17F1C79A3DE007144EE /* NotificationController.m in Sources */,
+				7701D1901C79A81E007144EE /* SellingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77A416F31C780A4D0017B6BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77A417551C7819760017B6BD /* RegisterScreen.m in Sources */,
+				77A417611C790F480017B6BD /* RequestsStreamScreen.m in Sources */,
 				77A417051C780A4D0017B6BD /* SecondViewController.m in Sources */,
+				77A417481C780A720017B6BD /* AFSecurityPolicy.m in Sources */,
+				77A4175E1C78C2BB0017B6BD /* NewTicketScreen.m in Sources */,
 				77A416FF1C780A4D0017B6BD /* AppDelegate.m in Sources */,
+				77A417451C780A720017B6BD /* AFHTTPRequestOperationManager.m in Sources */,
+				77A417491C780A720017B6BD /* AFURLConnectionOperation.m in Sources */,
+				77A417581C782CB70017B6BD /* StreamScreen.m in Sources */,
+				77A417441C780A720017B6BD /* AFHTTPRequestOperation.m in Sources */,
 				77A417021C780A4D0017B6BD /* FirstViewController.m in Sources */,
+				77A4174A1C780A720017B6BD /* AFURLRequestSerialization.m in Sources */,
+				77A417461C780A720017B6BD /* AFHTTPSessionManager.m in Sources */,
+				77A417471C780A720017B6BD /* AFNetworkReachabilityManager.m in Sources */,
+				77A417521C780D5F0017B6BD /* LoginScreen.m in Sources */,
+				77A4174B1C780A720017B6BD /* AFURLResponseSerialization.m in Sources */,
+				77A4175B1C788F800017B6BD /* CustomTableViewCell.m in Sources */,
+				77A4174C1C780A720017B6BD /* AFURLSessionManager.m in Sources */,
+				77A4174F1C780A840017B6BD /* API.m in Sources */,
 				77A416FC1C780A4D0017B6BD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +594,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7701D1731C79A3DE007144EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7701D16F1C79A3DE007144EE /* TicketingWatchKit Extension */;
+			targetProxy = 7701D1721C79A3DE007144EE /* PBXContainerItemProxy */;
+		};
+		7701D1841C79A3DE007144EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7701D1631C79A3DD007144EE /* TicketingWatchKit */;
+			targetProxy = 7701D1831C79A3DE007144EE /* PBXContainerItemProxy */;
+		};
 		77A417151C780A4D0017B6BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 77A416F61C780A4D0017B6BD /* TicketingApp */;
@@ -314,6 +617,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		7701D1661C79A3DD007144EE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7701D1671C79A3DD007144EE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		77A417061C780A4D0017B6BD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -333,6 +644,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7701D1861C79A3DE007144EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = TicketingWatchKit_Extension;
+				INFOPLIST_FILE = TicketingWatchKit/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehtaiphoneapps.TicketingApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		7701D1871C79A3DE007144EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = TicketingWatchKit_Extension;
+				INFOPLIST_FILE = TicketingWatchKit/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehtaiphoneapps.TicketingApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		7701D1881C79A3DE007144EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TicketingWatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehtaiphoneapps.TicketingApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		7701D1891C79A3DE007144EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TicketingWatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehtaiphoneapps.TicketingApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
 		77A417251C780A4D0017B6BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -418,6 +787,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TicketingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mehtaiphoneapps.TicketingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,6 +799,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TicketingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mehtaiphoneapps.TicketingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -486,6 +857,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7701D18A1C79A3DE007144EE /* Build configuration list for PBXNativeTarget "TicketingWatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7701D1881C79A3DE007144EE /* Debug */,
+				7701D1891C79A3DE007144EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7701D18C1C79A3DE007144EE /* Build configuration list for PBXNativeTarget "TicketingWatchKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7701D1861C79A3DE007144EE /* Debug */,
+				7701D1871C79A3DE007144EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		77A416F21C780A4D0017B6BD /* Build configuration list for PBXProject "TicketingApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -502,6 +891,7 @@
 				77A417291C780A4D0017B6BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77A4172A1C780A4D0017B6BD /* Build configuration list for PBXNativeTarget "TicketingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +900,7 @@
 				77A4172C1C780A4D0017B6BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77A4172D1C780A4D0017B6BD /* Build configuration list for PBXNativeTarget "TicketingAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +909,7 @@
 				77A4172F1C780A4D0017B6BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 #import "FirstViewController.h"
+#import "API.h"
 
 @interface FirstViewController ()
 
@@ -16,7 +17,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    
+    if (![[API sharedInstance] isAuthorized]) {
+        
+        [self performSegueWithIdentifier:@"ShowLoginFirst" sender:nil];
+    }
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    
 }
 
 - (void)didReceiveMemoryWarning {
