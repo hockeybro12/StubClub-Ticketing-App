@@ -6,7 +6,7 @@ Our app allows users to request for tickets for sold-out event at a certain pric
 
 On the flip side, people with tickets can also advertise their tickets if want to sell it. People looking to buy tickets can buy these tickets.
 
-How to use:
+# How to use:
 
 There are 3 sections. Tickets shows tickets that are being sold and requests shows requests that have been posted. To buy a ticket or fulfill a request, press on the row of the table view which will expand it. Then click "Buy Now" and say yes, and your request will be fulfilled. Add a new request by clicking the compose icon in the top right and fulfilling the required files. Also, choose selling or requesting by clicking the button. 
 
