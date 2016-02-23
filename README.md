@@ -8,6 +8,8 @@ On the flip side, people with tickets can also advertise their tickets if want t
 
 # How to use:
 
+Please not that this app was designed at a hackathon and only for iPhone 6 and iPhone 6s devices. Please use that device or use those on the simulator when running this project.
+
 There are 3 sections. Tickets shows tickets that are being sold and requests shows requests that have been posted. To buy a ticket or fulfill a request, press on the row of the table view which will expand it. Then click "Buy Now" and say yes, and your request will be fulfilled. Add a new request by clicking the compose icon in the top right and fulfilling the required files. Also, choose selling or requesting by clicking the button. 
 
 The app also features a watch interface. To use this, go to the logout tab. Click "Update watch" and the watch app will be updated with a table view. This will show all the tickets that the current user is selling. This can be expanded in the future to show bids on tickets and intelligence rating the price. This would be seen when clicking on the table view cell. 
